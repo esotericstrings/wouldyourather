@@ -10,6 +10,8 @@ Install project dependencies:
 Run app locally in development mode at http://localhost:3000 :
 * npm start
 
+A live version of this project can be found at http://wouldyourather-eso.surge.sh/
+
 ## App Pages 
 ### Login
 Users must be logged in to access any pages on the web app. By default, users will be routed to the app home page after login, but if they have been routed to the login page by trying to access a different page, they will be re-routed back to that page after login. Users can only choose to log in from a list of mock users.
