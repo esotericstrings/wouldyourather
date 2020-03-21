@@ -1,0 +1,58 @@
+li {
+  overflow: hidden;
+  padding: 0;
+  margin: 20px 0;
+}
+.user .avatar {
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+.user-image {
+  padding: 0 15px;
+}
+.user {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid grey;
+  padding: 10px;
+  width: calc(100% - 22px);
+}
+.user-stats {
+  border-right: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: left;
+  width: 55%;
+}
+.user-stat {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 10px;
+}
+.user-stat:last-of-type {
+  border-bottom: none;
+}
+.user-stat p {
+  margin: 6px;
+}
+.user-score {
+  border: 1px solid grey;
+  margin-left: 10px;
+  padding: 0 10px;
+}
+.user-score p {
+  font-weight: bold;
+}
+.score {
+  background: #11737A;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+  margin: 10px auto;
+  max-width: 15px;
+  font-size: 20px;
+}

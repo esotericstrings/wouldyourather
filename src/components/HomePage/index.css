@@ -1,0 +1,29 @@
+.question-list {
+  margin: 0;
+  padding: 20px;
+  border: 1px solid grey;
+  border-top: 0;
+}
+.wrapper {
+  max-width: 900px;
+  padding: 20px;
+  margin: auto;
+}
+.btn-group {
+  display: flex;
+}
+.btn-group div {
+  width: 50%;
+  text-align: center;
+  border: 1px solid grey;
+  background: white;
+  padding: 10px;
+  font-weight: bold;
+}
+.btn-group div:first-of-type {
+  border-right: 0;
+}
+.btn-group div.active {
+  background: lightgrey;
+  color: #003078;
+}

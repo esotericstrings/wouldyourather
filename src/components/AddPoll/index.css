@@ -1,0 +1,47 @@
+.wrapper {
+    max-width: 900px;
+    padding: 20px;
+    margin: auto;
+  }
+.question-card {
+    text-align: center;
+    border: 1px solid grey;
+    margin: 30px auto;
+    padding: 30px 20px;
+}
+.question-card form {
+    width: 60%;
+    margin: auto;
+}
+.question-card input {
+    width: calc(100% - 36px);
+    margin: 0 8px;
+    padding: 5px 10px;
+}
+.question-card p:nth-of-type(2) {
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+}
+.question-card input[type='submit'] {
+    background: #11737A;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid #11737A;
+    margin-top: 20px;
+    padding: 15px;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.question-card.error input.empty {
+    border: 1px solid red;
+}
+.question-card span {
+    width: calc(100% - 36px);
+    float: left;
+    margin: 0 8px;
+    padding: 5px 11px;
+    font-size: 0.8rem;
+    color: white;
+    background: red;
+}
